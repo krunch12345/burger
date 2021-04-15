@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.title {
+  text-align: center;
+}
+
+.burger {
+  display: flex;
+  justify-content: space-between;
+}
+.burgers,
+.stuffings,
+.toppings,
+.result-calorie,
+.result-price {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.burgers,
+.stuffings,
+.toppings {
+  width: 300px;
+}
+
+.flow-text {
+  text-align: center;
+}
+
+p,
+[type="radio"]:not(:checked)+span,
+[type="radio"]:checked+span,
+[type="checkbox"]+span:not(.lever),
+.result-calorie,
+.result-price {
+  font-size: 20px;
+}
+
+.one-p {
+  padding-top: 20px;
+}
+
+.btn-large {
+  display: block;
+  margin: 30px auto;
+}
+
+.result-calorie,
+.result-price {
+  align-items: center;
+}
+
+.burger img {
+  height: 200px;
+}
+
